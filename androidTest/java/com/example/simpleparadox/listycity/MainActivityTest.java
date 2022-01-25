@@ -90,6 +90,9 @@ public class MainActivityTest {
      * Close activity after each test
      * @throws Exception
      */
+ /**
+ * 1707073
+ */
     @After
     public void tearDown() throws Exception{
         solo.finishOpenedActivities();
